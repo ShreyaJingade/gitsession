@@ -1,0 +1,15 @@
+git push -u origin master
+
+master is our local branch.
+origin master is the branch master on the remote repository named origin.
+origin/master is your local copy of origin master.
+
+The term "git origin master" is used in the context of a remote repository. 
+It is used to deal with the remote repository. 
+The term origin comes from where repository original situated and master stands for the main branch.
+
+-u is the program which we want to share with the master branch.
+After pushing our local branch with -u option, this local branch will be automatically linked with remote branch, and you can use git pull without any arguments.
+
+Origin is just a remote like any other, but you see it very frequently since when you clone a repository for the first time, git clone will by default set up a remote called origin to refer to the URL that you cloned from.
+"Origin" is the name of the remote repository where you want to publish your commits. By convention, the default remote repository is called "origin," but you can work with several remotes (with different names) at the same time.
